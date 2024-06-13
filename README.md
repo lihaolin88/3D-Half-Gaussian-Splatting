@@ -26,7 +26,7 @@ May coming in the future
 The repository contains submodules, thus please check it out with 
 ```shell
 # HTTPS
-git clone 
+git clone https://github.com/lihaolin88/3D-Half-Gaussian-Splatting.git
 ```
 
 ## Overview
