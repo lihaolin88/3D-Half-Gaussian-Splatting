@@ -24,7 +24,7 @@ The codebase has 2 main components:
 - A half gaussain rasterizer, which can also been used as a plug-and-play core for other gaussian splatting task; to use it as a plug and play, the only thing you need to do is modify the opacity to two values for each gaussian and active the normal in your python code then use our half-gaussian rasterizer.
 - A rendering method can help you generate the final rendering result and show the score.
 
-## setup
+## Setup
 We provide conda install instructions in this repo:
 ```shell
 conda env create --file environment.yml
