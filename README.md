@@ -6,14 +6,8 @@ This repo contains the official implementation for the paper "3D-HGS: 3D-HGS: 3D
 
 <img width="1200" alt="3DHGS" src="https://github.com/lihaolin88/3D-Half-Gaussian-Splatting/assets/50398783/66948147-5ef4-49b8-bd30-01082702e39f">
 
-
-
-
 ## Step-by-step Tutorial
 Video may comimg in the future
-
-## Colab
-May coming in the future
 
 ## Cloning the Repository
 
