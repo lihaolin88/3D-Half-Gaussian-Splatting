@@ -15,3 +15,5 @@ dependencies:
   - pip:
     - submodules/diff-gaussian-rasterization
     - submodules/simple-knn
+    - lpips==0.1.4
+    - scipy==1.7.3
