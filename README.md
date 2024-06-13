@@ -1,11 +1,6 @@
-# 3D-HGS: 3D Half-Gaussian Splatting
-Haolin Li, Jinyang Liu, Mario , Octavia Camps <br>
-| [Full Paper](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/3d_gaussian_splatting_high.pdf) |<br>
-| [Example of one dataset, T&T+DB COLMAP (650MB)](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/datasets/input/tandt_db.zip) | [Link for other datasets, Mip-nerf360](https://jonbarron.info/mipnerf360/) | [Link for other datasets, deep-blending](http://visual.cs.ucl.ac.uk/pubs/deepblending/) |<be>
-|[Pre-trained model (truck in T&T+DB)](https://drive.google.com/drive/folders/1S21hCBg44dofSc6Pdm3P1l1TRVPQ-BYJ?usp=sharing)|[test dataset for truck](https://drive.google.com/drive/folders/17Clb6RFO4smGCfzbarfb2ob-VXbHXeXk?usp=sharing)
-![Teaser image](images/visual_results.jpg)
+## 3D-HGS: 3D Half-Gaussian Splatting <br><sub>Official PyTorch Implementation</sub> 
 
-This repository contains the official authors implementation associated with the paper "3D-HGS: 3D Half-Gaussian Splatting", which can be found [here](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/).
+### [[Arxiv]](https://arxiv.org/abs/2406.02720) 
 
 Abstract:Photo-realistic 3D Reconstruction is a fundamental problem in 3D computer vision. This domain has seen considerable advancements owing to the advent of recent neural rendering techniques. These techniques predominantly aim to focus on learning volumetric representations of 3D scenes and refining these representations via loss functions derived from rendering. Among these, 3D Gaussian Splatting (3D-GS) has emerged as a significant method, surpassing Neural Radiance Fields (NeRFs). 3D-GS uses parameterized 3D Gaussians for modeling both spatial locations and color information, combined with a tile-based fast rendering technique. Despite its superior rendering performance and speed, the use of 3D Gaussian kernels has inherent limitations in accurately representing discontinuous functions, notably at edges and corners for shape discontinuities, and across varying textures for color discontinuities. To address this problem, we propose to employ 3D Half-Gaussian (3D-HGS) kernels, which can be used as a plug-and-play kernel. Our experiments demonstrate their capability to improve the performance of current 3D-GS related methods and achieve state-of-the-art rendering performance on various datasets without compromising rendering speed.
 
