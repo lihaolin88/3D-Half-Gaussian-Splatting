@@ -20,8 +20,8 @@ git clone https://github.com/lihaolin88/3D-Half-Gaussian-Splatting.git
 ## Overview
 
 The codebase has 2 main components:
-- A PyTorch-based optimizer to produce a 3D half Gaussian model from SfM inputs, and almost all parameter settings will keep same as [gaussian splatting](https://github.com/graphdeco-inria/gaussian-splatting).
-- A half gaussain rasterizer, which can also been used as a plug-and-play core for other gaussian splatting task; to use it as a plug and play, the only thing you need to do is modify the opacity to two values for each gaussian and active the normal in your python code then use our half-gaussian rasterizer.
+- A PyTorch-based optimizer, this component generates a 3D half Gaussian model from Structure from Motion (SfM) inputs, most parameter settings align with those used in [gaussian splatting](https://github.com/graphdeco-inria/gaussian-splatting).
+- A half gaussain rasterizer, The half Gaussian rasterizer can be used as a plug-and-play core for Gaussian splatting tasks by adjusting the opacity to two values for each Gaussian and activating the normal in your Python code.
 
 ## Setup
 We provide conda install instructions in this repo:
@@ -29,7 +29,7 @@ We provide conda install instructions in this repo:
 conda env create --file environment.yml
 conda activate half_gaussian_splatting
 ```
-This environment will automatically use the half gaussian rasterizer. if the rasterizer not install right, please manually install the half gaussian rasterizer:
+This environment will automatically use the half Gaussian rasterizer. If the rasterizer is not installed correctly, please manually install the half Gaussian rasterizer:
 ```shell
 conda activate half_gaussian_splatting
 pip install ./submodules/diff-gaussian-rasterization
