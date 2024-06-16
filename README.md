@@ -22,7 +22,6 @@ git clone https://github.com/lihaolin88/3D-Half-Gaussian-Splatting.git
 The codebase has 2 main components:
 - A PyTorch-based optimizer to produce a 3D half Gaussian model from SfM inputs, and almost all parameter settings will keep same as [gaussian splatting](https://github.com/graphdeco-inria/gaussian-splatting).
 - A half gaussain rasterizer, which can also been used as a plug-and-play core for other gaussian splatting task; to use it as a plug and play, the only thing you need to do is modify the opacity to two values for each gaussian and active the normal in your python code then use our half-gaussian rasterizer.
-- A rendering method can help you generate the final rendering result and show the score.
 
 ## Setup
 We provide conda install instructions in this repo:
