@@ -190,7 +190,7 @@ class GaussianModel:
         ''' Learning rate scheduling per step '''
         for param_group in self.optimizer.param_groups:
             if param_group["name"] == "xyz":
-                lr = self.xyz_scheduler_args(iteration+15000)
+                lr = self.xyz_scheduler_args(iteration) #+15000)
                 param_group['lr'] = lr
                 return lr
 
