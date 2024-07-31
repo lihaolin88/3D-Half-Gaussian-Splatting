@@ -6,6 +6,9 @@ This repo contains the official implementation for the paper "3D-HGS: 3D-HGS: 3D
 
 <img width="1200" alt="3DHGS" src="https://github.com/lihaolin88/3D-Half-Gaussian-Splatting/assets/50398783/66948147-5ef4-49b8-bd30-01082702e39f">
 
+## Update
+07/31/2024: there is a bug in ./scene/gaussian_splatting.py line 193, it will switch the network to finetune mode and decrease the performance if you train from scratch. We fix it today.
+
 ## Step-by-step Tutorial
 Video may comimg in the future
 
