@@ -359,8 +359,8 @@ renderCUDA(
             if (power > 0.0f)
 				continue;
 
-			double exp_part = exp(power); //(con_o1.x * d.x * d.x + con_o1.z * d.y * d.y) - con_o1.y * d.x * d.y);
-			double tanh_part1 = 0.f;
+			float exp_part = exp(power); //(con_o1.x * d.x * d.x + con_o1.z * d.y * d.y) - con_o1.y * d.x * d.y);
+			float tanh_part1 = 0.f;
 			if(norm_use.z == 0.f){
 			    tanh_part1 = (1.0f+erff((norm_use.x*d.x + norm_use.y*d.y)/(1.4142135f*0.001f)));
 			}
