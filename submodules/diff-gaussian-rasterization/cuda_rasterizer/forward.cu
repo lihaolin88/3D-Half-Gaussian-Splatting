@@ -367,7 +367,7 @@ renderCUDA(
 			else{
 			    tanh_part1 = (1.0f+erff((norm_use.x*d.x + norm_use.y*d.y)/(1.4142135f*norm_use.z)));
 			     }//
-			double tanh_part2 = 2.0f-tanh_part1;//(1.0f+tanh((norm_use.x*usex + norm_use.y*usey)/(-1.4142135f*norm_use.z)));
+			float tanh_part2 = 2.0f-tanh_part1;//(1.0f+tanh((norm_use.x*usex + norm_use.y*usey)/(-1.4142135f*norm_use.z)));
 
 			float alpha1 = con_o1.w * exp_part * tanh_part1;
 			// x,y need to be negative for another half
